@@ -1,0 +1,689 @@
+ <!Doctype html>
+<html>
+<head>
+    
+ <title> Calculator </title>   
+  
+</head>
+<body>
+    <h1>compilation student score</h1>
+</body>
+</html>
+<script>
+        var ussd=prompt("Enter Etisalat Code")
+          if(ussd==="*200#"){
+             var step=prompt("1.Top up from Bank\n" +
+             "2.My Account\n"+
+             "3.Data\n"+
+             "4.Prepaid\n"+
+             "5.Bussines\n"+
+             "6.Ringback Tune\n"+
+             "7.Roaming\n"+
+             "8.NIN Check\n"+
+             "9.More Credit" );
+             if(step==1){var top=prompt("1.topup from your bank account ");
+             var top1=prompt("welcome\n please choose an option\n"+
+             "1.buy airtime \n"+
+             "2.buy data \n"+
+             "3.add bank account ");
+              if(top1==1){var top2=prompt("9mobile airtime\n"+"topup dial\n"+
+             " dial *695*amt#\n"+"1. unity\n"+
+             "2. heritage \n"+
+             "3.keystone \n"+
+             "4.sterling\n"+
+             "5.gtbank ")
+             if(top2==1){
+               var unity=prompt("enter unity account details ")
+                      if(unity.length==10){alert("successful")
+                       }else alert("incompleete account number")
+             }else if(top==2){
+               var heritage=prompt("enter heritage account details ")
+               if(heritage.length==10){alert("succesful")
+
+               }else alert("incorrect account number")
+              }else if(top==3){
+               var keystone=prompt("enter keystone account details ")
+               if(keystone.length==10){alert("succesful")
+
+               }else alert("incorrect account number")
+             }else if(top2==4){
+               var sterling=prompt("enter sterling account details ")
+               if(sterling.length==10){alert("succesful")
+
+               }else alert("incorrect account number")
+             }else if(top2==5){
+               var gtbank=prompt("enter gtbank  account details ")
+             if(gtbank.length==10){alert("succesful")
+
+               }else alert("incorrect account number")
+             }else alert("wrong bank")
+         
+            
+            } else if(top1==2){var data=prompt(
+               "buy data quicker with\n"+
+              "*695*2# please select plan1.\n"+
+              "1day 25mb-N50\n"+
+              "2.1day-100mb-N200\n"+
+              "3.1day-650mb-N200\n"+
+              "4.30days-500mb-N500")
+            }else if(top1==3){
+              var bank=prompt("please select a bank\n"+
+              "1.acess\n"+
+              "2.fcmb\n"+
+              "3.jaiz\n"+
+              "4.unity\n"+
+              "5.heritage\n"+
+              "6.keystone\n"+
+              "7.sterling")
+             if(bank==1){var accessAct=prompt("enter account details");
+                  if(accessAct.length==10){alert("succesful")
+                   }else alert("wrong acct details")
+            }else if(bank==2){var fcmbAct=prompt("enter account details")
+            if(fcmbAct.length==10){alert("succesful")
+                   }else alert("wrong acct details")
+            }else if(bank=-3){var jaizAct=prompt("enter account detail")
+          }else if(bank==4){var unityAct=prompt("enter account details")
+          if(unityAct.length==10){alert("succesful")
+                   }else alert("wrong acct details")
+        }else if(bank=-5){var heritageAct=prompt("enter account detail")
+        if(heritageAct.length==10){alert("succesful")
+                   }else alert("wrong acct details")
+      }else if(bank==6){var keystoneActt=prompt("enter account details")
+      if(keysoneAct.length==10){alert("succesful")
+                   }else alert("wrong acct details")
+        }else if(bank=-7){var sterlingAct=prompt("enter account detail")
+        if(sterlingAct.length==10){alert("succesful")
+                   }else alert("wrong acct details")
+
+            
+
+             }else alert("wrong act")
+               
+             }else alert("error 5684")
+             
+            
+             
+            
+             
+               
+          
+             
+               
+              
+               
+             
+            }else if(step==2){
+          var Acct=prompt("1. check balance \n"+
+          "2.check data\n"+
+          "3.recharge\n"+
+          "4.credit transfer \n"+
+          "5.show number \n"+
+          "6.check package \n"+
+          "7.sim validity \n"+
+          "8.gem\n"+
+          "9.boic")
+        if(Acct==1){alert("main bal=45.03;for flex 300,Recharge N300 Today")
+         }else if(Acct==2){alert("dear customer, you have used up your data")
+         }else if(Acct==3){var recharge=prompt("1.To recharge:enter 1*rechargecardpin#")
+              if(recharge.length==13){alert("succesful")
+
+              }else alert("sorry invalid command format.please try again later.Thank you")
+         
+         }else if(Acct==4){alert("1. To transfer crediot:Enter 1*pin*amount*phoneNo#")
+                
+        }else if(Acct==5){alert("your mobile number \n"+"is 09095329075");
+        }else if(Acct==6){prompt("your request is being processed please wait for a confirmation sms thank")
+        }else if(Acct==8){prompt("1.1 year extension at N500")
+        }else if(Acct==7){alert("sorry operation fail,please try again later");
+        }else if(Acct==9){alert("1.check boic \n"+"satus");
+       
+          }else alert("error")
+        
+
+
+
+
+
+
+
+
+
+       }else if(step==3){
+         var data=prompt("1.buy data\n"+
+         "2.check data \n"+
+         "3.smartpak \n"+
+         "4.streaming\n"+
+          "5.datagifting\n"+
+          "6.datatransfer \n"+
+          "7.data family plan \n"+
+          "8.opt-out dataplan")
+        if(data==1){var data1=prompt("1.daily&wkend\n"+"2.weekly\n"+
+        "3.monthly\n"+"4.fb flex")
+          if(data1==1){var daily=prompt("1.daily 25mb\n"+
+          "2.daily 100mb \n"+"3.daily 650mb\n"+"4.nights and weekend plan\n"
+          +"5.+social \n"+"6.data content\n"+"7.dailyboomplay data")
+              if(daily==1){daily1=prompt("buy now @ N50and select your preffered option 1.Auto-Renewal 2.one-off")
+              }else if(daily==2){daily2=prompt("buy noww @ N100 and select your preffered option 1.Auto-Renewal 2.one-off")
+              }else if(daily==3){daily3=prompt("buy noww @ N100 and select your preffered option 1.Auto-Renewal 2.one-off")
+              }else if(daily==4){daily4=prompt("buy noww @ N100 and select your preffered option 1.Auto-Renewal 2.one-off")
+                                                                                         
+              
+              }else("error daily")
+         
+            }else if(data1==2){var weekly=prompt("1.weekly 250mb\n"+
+          "2.weekly data plan + social \n"+"6.data +content\n"+"4.weekly boomplay data")
+               if(weekly==1){var weekly1=prompt("buy 250 weekly plan @ N200 and select your preffered option 1.Auto-Renewal 2.one-off")
+               }else if(weekly=2){var weekly1=prompt("1.1gb weekly data plan + social \n"+"2.7gb weekly data plan + social")
+                      if(weekly1==1){weekly2=prompt("buy noww @ N500 and select your preffered option 1.Auto-Renewal 2.one-off")
+                      }else if(weekly1==2){weekly3=prompt("buy noww @ N1000 and select your preffered option 1.Auto-Renewal 2.one-off")                
+    
+                      }else alert("error weekly")
+               }else if(weekly==3){var content=prompt("1.250mb + c0ntent")
+                     if(content==1){daily4=prompt("buy noww @ N100 and select your preffered option 1.Auto-Renewal 2.one-off")
+                     }else alert("error")                          
+              }else if(weekly=4){var content=prompt("1.1gb valid for 7days")
+               }else ("error")
+          
+              }else if(data1==3){var month=prompt("1.monthly 500mb\n"+
+          "2.mnthly 1.5gb -4.5gb\n"+"3.monthly 11gb - 75gb\n"+"4.dailyboomplay data")
+               if(month==1){var month1=prompt("buy noww @ N500 and select your preffered option 1.Auto-Renewal 2.one-off")
+              }else if(month==2){var month2=prompt("1.5gb for N1000 \n"+"2.2gb for N1200\n"+"3.3gb for N1500\n"+"4.4.5gb for N2000")
+                   if(month2==1){var month21=prompt("buy noww @ N100 and select your preffered option 1.Auto-Renewal 2.one-off")
+                   }else if(month2==2){var month22=prompt("buy noww @ N100 and select your preffered option 1.Auto-Renewal 2.one-off")
+                   }else if(month2==2){daily4=prompt("buy noww @ N100 and select your preffered option 1.Auto-Renewal 2.one-off")
+                   }else if(month2==3){var month23=prompt("buy noww @ N100 and select your preffered option 1.Auto-Renewal 2.one-off")
+                   }else if(month2==4){var month24=prompt("buy noww @ N100 and select your preffered option 1.Auto-Renewal 2.one-off")
+                   }else alert("error")
+              }else if(month==3){var month3=prompt("1.11gb for N4000\n"+"2.15gb for N5000\n"+"3.40gb for N10000\n"+"4.75gb for N15000")
+              if(month3==1){var month31=prompt("buy noww @ N100 and select your preffered option 1.Auto-Renewal 2.one-off")
+                   }else if(month3==2){var month32=prompt("buy noww @ N100 and select your preffered option 1.Auto-Renewal 2.one-off")
+                   }else if(month3==3){var month33=prompt("buy noww @ N100 and select your preffered option 1.Auto-Renewal 2.one-off")
+                   }else if(month3==4){var month34=prompt("buy noww @ N100 and select your preffered option 1.Auto-Renewal 2.one-off")
+                   }else alert("error")
+  
+              }else if(month==4){var boom=prompt("1.3gb valid for\n"+" 30days")
+
+               }else alert("error")
+         
+        
+        
+        
+        }else if(data1==4){alert ("hello,\n"+"you can now chat,\n"+
+           "post message and connect with \n"+
+           "friends for free on facebook\n"+
+          "facebook.com\n"+"to get started")
+
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        }else alert("error")
+        }else if(data==2){alert("dear \n"+"customer,\n"+"you have used up your\n"+"data balance")
+        
+            
+        }else if(data==3){var smart=prompt("1..chats \n"+"2.social media \n"+"only\n"+"3.special\n"+"smartpaks")
+           if(smart==1){var smartchat=prompt("1.dailychat\n"+"2.weeklychat\n"+"3.monthlychat")
+                  if(smartchat==1){prompt("buy noww @ N100 and select your preffered option\n"+"1.Auto-Renewal \n"+"2.one-off")
+                  }else if(smartchat==2){prompt("buy noww @ N200 and select your preffered option.\n"+"1.Auto-Renewal\n"+"2.one-off")
+                  }else if(smartchat==3){prompt("buy noww @ N1400 and select your preffered option\n"+"1.Auto-Renewal\n"+"2.one-off")
+                      
+                  }else alert("error")
+           }else if(smart==2){var socialsmart=prompt("1.daily\n"+"2.weekly\n"+"3.monthly")
+                    if(socialsmart==1){prompt("buy noww @ N100 and select your preffered option\n"+"1.Auto-Renewal \n"+"2.one-off")
+                  }else if(socialsmart==2){prompt("buy noww @ N200 and select your preffered option.\n"+"1.Auto-Renewal\n"+"2.one-off")
+                  }else if(socialsmart==3){prompt("buy noww @ N1400 and select your preffered option\n"+"1.Auto-Renewal\n"+"2.one-off")
+                  }else alert("error")
+
+           
+           }else if(smart==3){var specialsmart=prompt("1.specialchatpak\n"+"2.special social me pak")
+                 if(specialsmart==1){prompt("buy noww @ N100 and select your preffered option\n"+"1.Auto-Renewal \n"+"2.one-off")
+                  }else if(specialsmart==2){prompt("buy noww @ N200 and select your preffered option.\n"+"1.Auto-Renewal\n"+"2.one-off")
+                  }else if(specialsmart==3){prompt("buy noww @ N1400 and select your preffered option\n"+"1.Auto-Renewal\n"+"2.one-off")
+                  }else alert("error")
+           }else alert("error")
+            
+        }else if(data==4){var stream=prompt("1.daily streaming\n"+"2.3dys\n"+"3.weekly\n"+"4.monthly strreaming")
+                   if(stream==1){var dailystream=prompt("1.daily10mins2\n"+"2.daily30mins3\n"+"3.daily60mins4\n"+"4.daily2hrs")
+                       if(dailystream==1){
+                           preffered("buy now @ N25")
+                       }else if(dailystream==2){prompt("buy noww @ N60")
+                      }else if(dailystream==3){prompt("buy noww @ N110")
+                      }else if(dailystream==4){prompt("buy noww @ N200")
+                       
+                       }else alert("eror dailystream")
+                     
+                
+                      
+                }else if(stream==2){prompt("buy noww @ N500 and select your preffered option\n"+"1.Auto-Renewal\n"+"2.one-off")
+                }else if(stream==3){prompt("buy noww @ N1000 and select your preffered option\n"+"1.Auto-Renewal\n"+"2.one-off")
+                }else if(stream==4){var streammonth=prompt("1.mthly 15hrs\n"+"2.mthly 40 hrs\n"+"3.mthly 90hrs")
+                       if(streammonth==1){prompt("buy noww @ N100 and select your preffered option\n"+"1.Auto-Renewal \n"+"2.one-off")
+                  }else if(streammonth==2){prompt("buy noww @ N200 and select your preffered option.\n"+"1.Auto-Renewal\n"+"2.one-off")
+                  }else if(streammonth==3){prompt("buy noww @ N1400 and select your preffered option\n"+"1.Auto-Renewal\n"+"2.one-off")
+                  }else alert("error")
+                
+              }else alert("error")
+
+                
+        }else if(data==5){var gift=prompt("1.gift internet plans\n"+"2.gift heavy internet plans")
+                
+              if(gift==1){var gift1=prompt("1.goft 25mb\n"+
+                   "2.gift 100mb \n"+
+                   "3.gift 650mb\n"+
+                   "4.gift 1gb\n"+"5.gift 2gb\n"+"6.gift 250mb \n"+"7.gift 500mb\n"+"8.gift1.5gb \n"+"9.gift2gb")
+                   if(gift1==1){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   }else if(gift1==2){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   }else if(gift1==3){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   }else if(gift1==4){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   }else if(gift1==5){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   }else if(gift1==6){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   }else if(gift1==7){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   }else if(gift1==8){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   }else if(gift1==9){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   
+                  
+                       
+                   }else alert("error")
+              }else if(gift==2){var gift2=prompt("1.monthly 4.5gb \n"+"2.monthly 11gb\n"+ "3.monthly 15gb\n"+ "4.monthly 40gb\n"+"5.monthl79gb")
+               if(gift2==1){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   }else if(gift2==2){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   }else if(gift2==3){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   }else if(gift2==4){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   }else if(gift2==5){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+                   }else if(gift2==6){prompt("To\n"+"gift now @\n"+ "N50,\n"+
+                   "1.gift 25mb\n"+
+                   "valid for a daily\n"+
+                   "now @ N50")
+
+                       
+                   }else alert("error")
+                 
+              }else alert("error goft")
+       
+        }else if(data==6){var transfer=prompt("1.daily streaming\n"+"2.3dys\n"+"3.weekly\n"+"4.monthly strreaming")
+               if(transfer==1){prompt
+                   ("data volume\n"+
+                     "transferable is\n"+
+                      "btw 1day-650mb-\n"+
+                       "200mv max/1day\n"+
+                        "1.To transfer\n"+
+                        "data enter\n"+
+                        "1*pin*volume\n"+
+                         " of\n"+
+                          "data*phineNo")
+                 }else alert("error")
+
+                
+        }else if(data==7){var family=prompt
+                    ("1.activate family plan\n"+ 
+                     "2.share data quota\n"+ "3.reciever list\n"+
+                     "4.data balance\n"+ "5.data reciever\n"+ "6.optout of familyplan")
+                 if(family==1){prompt("1.activate now at no cost")
+                 }else if(family==2){prompt("data quota in\n"+
+                     "megabyte(mb)\n"+
+                      "1.To share enter\n"+
+                      "1*pin*dataQuota*\n"+
+                      "phoneNo#")
+                 }else if(family==3){aler("you do not\n"+"have any subscriber\n"+"on your list")
+                 }else if(family==4){alert("dear customer,\n"+"your have used\n"+"up your data balance")
+                 }else if(family==5){prompt("1.To delete enter1*pin*PhineNo")
+                 }else if(family==6){alert("you are not\n"+ "subscriber to this\n"+"service")
+                           
+                 
+                      }else alert("error")
+       
+        }else if(data==8){alert("you are not subscriber to this service")
+        
+        }else alert("error data")
+
+
+        
+         }else if(step==4){
+           var prepaid=prompt("1.moretalk\n"+
+           "2.morecliq\n"+
+           "3.talkzone\n"+
+           "4.morelife complete\n"+
+           "5.cliqlie\n"+
+           "6.moreflex\n"+
+           "7.moreflexplus")
+               
+                   if(prepaid==1){var talk=prompt("1.change to more talk.\n"+
+                      "2.you and me\n"+
+                      "get N300to call 5 specail number")
+                    }else if(prepaid==2    ){var cliq=prompt("1.change to morecliq\n"+"2.cliq 4 d day3.cliq identifier")
+                          
+                    }else if(prepaid==3){var talk=prompt("change to talkzone.get discounted call rate\n"+"2.check talkzone")
+                    }else if(prepaid==4){var life=prompt("migrate now free")
+                          
+                    }else if(prepaid==5){var cliq=prompt("1.whitelist\n"+"2.blacklist")
+                          
+                    }else if(prepaid==6){var flex=prompt("1.lower bundle\n"+"2.higher bundles\n"+"3.checkbundle\n"+"4.cancel bundle")
+                          
+                    }else if(prepaid==7){var plus=prompt("1.flex500plus\n"+"2.flex1000plus\n"+"3.flex2000plus\n"+"4.checkbundle\n"+"5.cancelbundle")
+                          
+                      
+                   
+               }else alert("error")
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+       }else if(step==5){
+           var buss=prompt("1.more bussines\n"+
+           "2. morebussines combbo \n"+
+           "3.more bussines 2.0 \n"+
+           "4.morebussines\n"+
+           "5.share data")
+                if(buss==1){prompt("1.migrate to more bussines")
+                         
+                }else if(buss==2){var buss22=prompt("1.morebussinescombovalue\n"+ "2.morebusinrsscombopremier\n"+ "3.morebusinesscomboblack\n"+ "4.morebusinesscombobasic")
+                          if(buss22==1){prompt("1.buy now @ 1000")
+                          }else if(buss22==2){prompt("1.buy now @ 2000")
+                            }else if(buss22==3){prompt("1.buy now @ 5000")
+                             }else if(buss22==4){prompt("1.buy now @ 1000")
+                                
+                                     
+                          
+                          }else alert("eroor")
+                
+                  
+                    
+                }else if(buss==3){var buss23=prompt("1.bussinesss2000\n"+"2.bussiness5000\n"+"3.business10000\n"+"4.staffplanvoice\n"+"5.staffplandata\n"+"6.addonservice\n"+"7.advancepatment")
+                       if(buss23==1){prompt("buy    bussiness 2000 @    N2000")
+                       }else if(buss23==2){prompt("1.buy       now 5000 @ N5000")
+                             
+                         }else if(buss23==3){prompt("1.buy now 1000 @ N10000")
+                             
+                         }else if(buss23==4){prompt("1.press 1*4*ExecutiveMSISDN*2#")
+                             
+                         }else if(buss23==5){prompt("press 1*4*ExecutiveMSISDN*22#")
+                             
+                         }else if(buss23==6){prompt("1.cug 250min @ N10002.cug 500min @ N5003.sme share datema4.unlimited chatpack @ N4005.intl call bundle6.buy flex")
+ 
+                        }else if(buss23==7){prompt("1.press1*numberofmonth to pay in advance#")
+                             
+                         
+                             
+                         }else alert("error")
+                
+                
+                
+                
+                
+                
+                    
+                }else if(buss==4){var buy=prompt("1.buy premium\n"+"2.buy compact\n"+"3.advance payment")
+                      if(buy==1){prompt("1.buy now @ N1000")
+                          
+                      }else if(buy==2){prompt("buy now @ N500")
+                          
+                      }else if(buy==3){prompt("1.press 1*number of months to pay in advance#")
+                          
+                      }else alert("error")
+                 
+                
+                
+                
+                
+                
+                   
+                }else if(buss==5){var share=prompt("1.buysmesharedata\n"+"2.allocatedataquota\n"+"3.recieverlist\n"+"4.databalance\n"+"5.deletereciever\n"+"6.opout")
+                  if(share==1){prompt("1.15gb at N5000\n"+"2.40gb at N10000\n"+
+                      "3.75gb at N15000\n"+
+                      "4.130gb at N25000\n"+
+                     "5.185gb at N35000\n"+"6.240gb at N45000")
+                         }else if(share==2){prompt("1.1*pin\n"+"*dataQuota*PhoneNo#")
+                         }else if(share==3){prompt("you do not have any subscriber on your list")
+                         }else if(share==4){prompt("dear customer,you have used up your data balance")
+                         }else if(share==5){prompt("1.1*pin\n"+"*PhoneNo#")
+                         }else if(share==6){prompt("you are not subscriber to this service")
+                         }else alert("errork")
+                       
+                }else alert("error")
+ 
+           
+             
+       }else if(step==6){
+               var RBT=prompt("1.RBt")
+               
+                  if(RBT==="1"){var rbt1=prompt("welcome to moretune\n"+
+                    "select an option:\n"+
+                      "1.rora by reekado banks\n"+"2.hot tunes\n"+"3.new tunes\n"+"4.more rbt genre\n"+"5.search tune\n"+"6.subscribe rbt\n"+"98.more")
+                       if(rbt1==1){alert("No hot code found")
+                      }else if(rbt1==2){var hot=prompt("1.nobody fine pas..by tclassic\n"+"2.jowa bayi by damibliz ft cd\n"+"3.able God by chinko ekun ft\n"+"99.more")
+                      if(hot==1){prompt("tone\n"+
+                        "name:nobody\n"+
+                      "fine pass your\n"+
+                           "1.download\n"+
+                              "3.tarrif            price\n"+
+                         "99.back\n"+
+                             "0.main menu")
+                         }else if(hot==2)       {prompt            ("tone\n"+
+                        "name:damiblizz\n"+
+                      "jowa bayi\n"+
+                           "1.download\n"+
+                              "3.tarrif            price\n"+
+                         "99.back\n"+
+                             "0.main menu")
+                           
+                           }else if(hot==3     ){prompt            ("tone\n"+
+                        "name:chinko ekun\n"+
+                      "able God\n"+
+                           "1.download\n"+
+                              "3.tarrif            price\n"+
+                         "99.back\n"+
+                             "0.main menu")
+                           }else alert("error")
+                          
+                               
+                               
+                               
+                           }else if(rbt1==3){var news =prompt("1.trobul by wirkd & sar\n"+"2.tiff by demmie vee\n"+ "3.dont call me by joeboy")
+                            if(news==1){prompt("tone\n"+
+                        "name:wirkd\n"+
+                      "trobul\n"+
+                           "1.download\n"+
+                              "3.tarrif            price\n"+
+                         "99.back\n"+
+                             "0.main menu")
+                         }else if(news==2)       {prompt            ("tone\n"+
+                        "name:demmie\n"+
+                      "tiff\n"+
+                           "1.download\n"+
+                              "3.tarrif            price\n"+
+                         "99.back\n"+
+                             "0.main menu")
+                           
+                           }else if(news==3     ){prompt            ("tone\n"+
+                        "name:joeboy\n"+
+                      "dont call me\n"+
+                           "1.download\n"+
+                              "3.tarrif            price\n"+
+                         "99.back\n"+
+                             "0.main menu")
+                           }else alert("error")
+                  
+                   }else if(rbt1==4){var  more=prompt("dynamic categories\n"+"1.islamic\n"+"2.christayn\n"+"3.soccer\n"+"4.foreign\n"+"5.more\n"+"99.back")
+                       if(more==1){prompt("no crbt found.\n"+"99.back\n"+"0.main menu")
+                       }else if(more==2){prompt("no crbt found.\n"+"99.back\n"+"0.main menu")
+                       }else if(more==3){prompt("no crbt found.\n"+"99.back\n"+"0.main menu")
+                       }else if(more==4){prompt("no crbt found.\n"+"99.back\n"+"0.main menu")
+                       }else if(more==5){prompt("no crbt found.\n"+"99.back\n"+"0.main menu")
+                       
+                           
+                       }else alert("error")
+                          
+                       }else if(rbt1==5){prompt("search crbt\n"+"1.search by song name\n"+"2.search by artist name\n"+
+                           "3.search by crbt\n"+"99.more")
+                           }else if(rbt1==6){prompt("do you want to confirm subscription by default charging\n"+"1.confirm\n"+
+                           "98.more")
+                           }else if(rbt1==98){prompt("welcome to moretunez! select an option:7help103.new music99.back")
+
+                          
+                      
+                    }else alert("error")
+               }else alert("error")
+           
+               
+               
+               
+               
+       }else if(step==7){
+           var roam=prompt("1.roaming data bundle \n"+
+           "2.free incoming calls \n"+
+           "3.corporate roaming bundle")
+                if(roam=1){var roam11=prompt("1.weekly 200mb @ N5000\n"+"2.monthly 500mb @10000\n"+"3.check countries")
+                   if(roam11==1){prompt("dear customer,\n"+"your request was not succesful due to insufficient balance,\n"+
+                   "please recharge and try again")
+                   }else if(roam11==2){prompt("dear customer,\n"+"your request was not succesful due to insufficient balance,\n"+
+                   "please recharge and try again")
+                         
+                   }else if(roam11==3){prompt("hello,\n"+"you can use your roaming bundle in uk(vodafone,telefonica/02)\n"+"usa(T-mobile),Ghana(vodafone)")
+                       
+                   
+                }else alert("eroor")
+           
+           
+           
+           
+               
+           }else if(roam==2){prompt("1.check eligibility\n"+"2.check countries and network")
+               
+           }else if(roam==3){var roam3=prompt("1.buy bundle\n"+"2.check eligible desttination")
+                 if(roam3==1){var roam31=prompt("1.social corporatebune\n"+"2.basic corporate bundle\n"+"3.premium corporate bundle\n"+"4.executive corporate bundle")
+                 if(roam31==1){prompt("1.100mb @N2500 vilid for 7days")
+                     
+                 }else alert("tyyy")
+                     
+                 }else alert("error")
+           }else alert("error")
+           
+           
+           
+           
+       }else if(step==8){
+           var nin=prompt("1.verify your linked nin\n"+
+           "2.enter your 11 digit nin or 16 digit nin\n"+
+           "3. nin registration center")
+             if(nin==1){alert("your request is\n"+"being processed please\n"+"wait for a confirmation sms\n"+"thank you for using 9mobile")
+            }else if(nin==2){var nindigit=prompt("ENTER YOUE NIN NUMBER")
+                  if(nindigit.length==11){alert("your request is\n"+"being processed\n"+"please wait for a confirmation\n"+"sms\n"+"thank you for using 9mobile")
+                   }else if(nindigit.length==16){alert("your request is\n"+"being processed\n"+"please wait for a confirmation\n"+"sms\n"+"thank you for using 9mobile")
+                   }else alert("error nin")
+
+             }else if(nin==3){prompt("dear customer,\n"+"please click on the NIMC\n"+"website link below for enrolment\n"+"center;https:\cutt.ly\6hlsgew.thank you for chosing 9mobile")
+             }else alert("error")
+        
+           
+       }else if(step==9){
+              var credit=prompt("1.more credit\n"+
+              "2.borrow+save")
+                if(credit==1){var borrow=prompt("please select:\n"+"1. borrow airtime\n"+ "2.borrow data")
+                    if(borrow==1){var airtime=prompt("1.choose loan amount\n"+"2.check eligibily\n"+"3.check debt status\n"+"4.enable loans\n"+"5.disable loans")
+                        if(airtime==1){var loan1=prompt("1.get 50\n"+"2.get 100\n"+"3.get  200\n"+"4.get 500\n"+"5.get 1000\n"+"6.get 200")
+                                if(loan1==1){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                                }else if(loan1==2){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                                }else if(loan1==3){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                                }else if(loan1==4){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                                }else if(loan1==5){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                                }else if(loan1==6){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                                }else alert("error")
+                                
+                          }else if(airtime==2){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                          }else if(airtime==3){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                          }else if(airtime==4){prompt("this allows you to enable borrowing on your line\n"+":1.1 to confirm\n"+"2.0 to go back")
+                          }else if(airtime==5){prompt("this allows you to enable borrowing on your line\n"+":1.1 to confirm\n"+"2.0 to go back")
+                          }else alert("error")
+                        
+                         }else if(borrow=2){var data=prompt("1.choose loan amount\n"+
+                         "2.check eligibily\n"+"3.check debt status\n"+"4.enable loans\n"+"5.disable loans")
+                          
+                     
+                        if(data==1){var loan11=prompt("1.get 100mb valid for 1 day\n"+"2.get 259mb valid for 7days\n"
+                                   +"3.get  500mb valid for 30 days\n"+"4.get 1.5gb valid for 30days")
+                              if(loan11==1){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                              }else if(loan11==2){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                              }else if(loan11==3){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                              }else if(loan11==4){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                              }else alert("error")
+                        
+                        }else if(data==2){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                        }else if(data==3){prompt("your request is being processed please wait for a confirmation sms thank  you")
+                        }else if(data==4){prompt("this allows you to enable borrowing on your line\n"+":1.1 to confirm\n"+"2.0 to go back")
+                        }else if(data==5){prompt("this allows you to enable borrowing on your line\n"+":1.1 to confirm\n"+"2.0 to go back")
+                        }else alert("error")
+                        
+                   }else alert("error")
+                }else if(credit==2){var loan=prompt("1.loan + save\n"+"2.help")
+                 if(loan==1){
+                   var debt=prompt("hello from migo!\n"+"get a loan with \n"+"no wahala,all you need are your \n"+"account details select\n"+"1.loan\n"+"2.info\n"+"3.help")
+                        if(debt=1){promt("1.cash laon\n"+"2.pay loan\n"+"3.loan balance\n"+"4.extend loan\n"+"5.terms & condition")
+                         }else if(loan==2){prompt(`TEXT "HELP" to 561`)                 
+                        }else alert("error")
+                 }else alert("error")
+                    
+
+                }else alert("error")
+
+
+
+           }else alert("wrong number")
+           
+         }else alert("error1")   
+</script>
